@@ -1,0 +1,70 @@
+.formContainer {
+    width: 350px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #e8f5e9;
+    border: 1px solid #81c784;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.formContainer h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.numero {
+    margin-bottom: 15px;
+}
+
+.numero input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.operacao {
+    margin-bottom: 15px;
+}
+
+.operacao select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn input {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn input[type="submit"] {
+    background-color: #43a047;
+    color: white;
+}
+
+.btn input[type="button"] {
+    background-color: #c8e6c9;
+    color: #1b5e20;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.resultado p {
+    color: #333;
+    font-weight: bold;
+}
